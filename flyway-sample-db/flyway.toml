@@ -25,3 +25,7 @@ ignoreNewlinesInTextObjects = "off"
 [environments.sampledb]
 url = "jdbc:postgresql://localhost:5432/sampledb"
 schemas = [ "public" ]
+
+[environments.sampledb-stage]
+url = "jdbc:postgresql://localhost:5432/sampledb_stage"
+schemas = [ "public" ]
